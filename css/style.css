@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Cabin', sans-serif;
+}
+:root{
+    --main-color: #960046;
+}
+
+header{
+    background-color: var(--main-color);
+}
+nav .nav-link{
+    color: rgb(241, 241, 241);
+    margin: 0 20px !important;
+    letter-spacing: 1px !important;
+}
+nav .nav-link:hover{
+    color: white;
+}
+.shopping-cart span {
+    transform: translate(-64%,-77%)!important;
+}
+#jewelry span{
+    transform: translate(-50%,-40%)!important;
+}
+
+.latest-product button:hover{
+    color: var(--main-color);
+}
+.load-btn button:hover{
+    color: rgb(17, 17, 17) !important;
+}
+.new-arrivals{
+    background-color: var(--main-color);
+    overflow: hidden;
+}
+.new-arrivals button{
+    background-color: var(--main-color);
+    color: white;
+}
+.new-arrivals button:hover{
+    background-color: white;
+    color: var(--main-color);
+}
+@media only screen and (max-width: 770px) {
+    .logo{
+        width: 100px !important;
+    }
+}
