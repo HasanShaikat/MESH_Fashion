@@ -2,6 +2,7 @@
 
 *{
     font-family: 'Cabin', sans-serif;
+    
 }
 :root{
     --main-color: #960046;
@@ -22,7 +23,7 @@ nav .nav-link:hover{
     transform: translate(-64%,-77%)!important;
 }
 #jewelry span{
-    transform: translate(-50%,-40%)!important;
+    transform: translate(-64%,-77%)!important;
 }
 
 .latest-product button:hover{
@@ -43,6 +44,72 @@ nav .nav-link:hover{
     background-color: white;
     color: var(--main-color);
 }
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+  footer{
+    background-color: var(--main-color) !important;
+  }
+
+  .footer-logo img{
+    width: 100px !important;
+  }
+
+  footer .company-name{
+    color: var(--main-color);
+  } 
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    #jewelry span{
+        transform: translate(-410%,7%)!important;
+    }
+}
+@media screen and (max-width: 991px) {
+    #jewelry span{
+        transform: translate(-640%,7%)!important;
+    }
+}
+  @media (max-width: 760px) {
+    .swiper-slide {
+      width: 100% !important;
+      display:grid !important;
+      grid-template-columns: 1fr, 1fr !important;
+    }
+  }
+
+
 @media only screen and (max-width: 770px) {
     .logo{
         width: 100px !important;
